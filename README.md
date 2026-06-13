@@ -152,13 +152,3 @@ Edit `config.py` to tune:
 - `QA_PROMPT_TEMPLATE` — adjust grounding/prompt behavior
 
 ---
-
-## ✅ Submission Checklist (per assignment)
-
-- [x] Load PDF (`PyPDFLoader`)
-- [x] Split with `RecursiveCharacterTextSplitter`
-- [x] Embed & store with FAISS
-- [x] Retriever + `RetrievalQA` chain
-- [x] "Not found in document" grounding behavior
-- [x] Bonus: Streamlit UI
-- [x] `test_chatbot.py` for 5-question verification
